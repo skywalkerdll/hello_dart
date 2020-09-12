@@ -21,7 +21,6 @@ void main(List<String> args) async {
   method2();
   var f2 = method2();
   print(f2);
-
   var f5 = await method5();
   print(f5);
   var f3 = method3();
