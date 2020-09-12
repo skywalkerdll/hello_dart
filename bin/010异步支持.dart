@@ -16,7 +16,8 @@ Future<String> method5() async {
 
 void main(List<String> args) async {
   //异步
-  method1();
+  var f1 = method1();
+  print(f1);
   method2();
   var f5 = await method5();
   print(f5);
