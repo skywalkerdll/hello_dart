@@ -19,7 +19,11 @@ void main(List<String> args) async {
   var f1 = method1();
   print(f1);
   method2();
+  var f2 = method2();
+  print(f2);
+
   var f5 = await method5();
   print(f5);
-  method3();
+  var f3 = method3();
+  print(f3);
 }
